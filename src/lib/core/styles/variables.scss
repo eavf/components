@@ -1,0 +1,91 @@
+/* DEFAULT COLORS */
+$systemBlueLight: #458CC9;
+$systemBlueDark: #2A669A;
+$darkGrey: #636363;
+
+/* GRADIENT COLORS */
+$systemGradientFrom: #FFFFFF;
+$systemGradientTo: #DEDEDE;
+
+/* SIDEBAR */
+$sidebarBgColorLight: #2D353D;
+$sidebarBgColorDark: #21272D;
+$sidebarWidthExpanded: 230px;
+$sidebarWidthCollapsed: 52px;
+$sidebarWidthMobile: 80%;
+$sidebarBrandBgColor: #E6E6E6;
+$sidebarIconFontSize: 24px;
+
+/* SIDEBAR GROUP */
+$sidebarGroupColor: #FFFFFF;
+$sidebarGroupBorderWidth: 3px;
+$sidebarGroupSelectedBorder: $sidebarGroupBorderWidth solid rgba(69, 140, 201, 1);
+$sidebarGroupBorder: $sidebarGroupBorderWidth solid rgba(69, 140, 201, 0);
+$sidebarGroupFontSize: 13pt;
+$sidebarGroupHeaderPadding: 15px;
+
+/* SIDEBAR ITEM */
+$sidebarItemColor: #FFF;
+$sidebarItemFontSize: 13pt;
+$sidebarItemIconPadding: 0 15px 0 52px;
+$sidebarItemHeight: 52px;
+$sidebarItemActiveColor: #3F464D;
+
+/* TOOLBAR */
+$toolbarHeight: 52px;
+$toolbarBgColor: #FFFFFF;
+
+/* MODAL DIALOG WINDOW */
+$modalIconBubbleSize: 140px;
+$modalIconSize: 80px;
+$modalLogoColor: #83868A;
+$modalContainerBackgroundFrom: #6D5A82;
+$modalContainerBackgroundTo: #EFB199;
+
+/* INPUT */
+$inputBorderRadius: 10px;
+$inputBorderColor: #D1D1D1;
+$inputFontSize: 13px;
+$inputFontColor: #83868A;
+$inputHeight: 37px;
+$inputSidePadding: 16px;
+$inputPlaceholderColor: #e6e6e6;
+
+/* BUTTON COLORS */
+$buttonTextColorWhite: white;
+$buttonTextColorDarkGrey: $darkGrey;
+
+$buttonDefaultColorFrom: #D1D1D1;
+$buttonDefaultColorTo: #AAAAAA;
+
+$buttonDefaultHoverTextColor: #E9E9E9;
+$buttonDefaultHoverBackgroundFrom: #9B9B9B;
+$buttonDefaultHoverBackgroundTo: #7D7D7D;
+
+$buttonDefaultDisabledTextColor: #B1B1B1;
+$buttonDefaultDisabledBackgroundFrom: #E1E1E1;
+$buttonDefaultDisabledBackgroundTo: #CCCCCC;
+
+$buttonDefaultPressedTextColor: $darkGrey;
+$buttonDefaultPressedBackgroundFrom: #8E8E8E;
+$buttonDefaultPressedBackgroundTo: #BCBBBB;
+
+$buttonBlueColorFrom: $systemBlueLight;
+$buttonBlueColorTo: $systemBlueDark;
+
+$buttonBlueHoverTextColor: #E9E9E9;
+$buttonBlueHoverBackgroundFrom: #32618A;
+$buttonBlueHoverBackgroundTo: #183651;
+
+$buttonBluePressedTextColor: white;
+$buttonBluePressedBackgroundFrom: #235075;
+$buttonBluePressedBackgroundTo: #36648D;
+
+/* SLIDE-TOGGLE */
+$slideToggleWidth: 160px;
+$slideToggleHeight: 18px;
+$slideToggleRadius: 29px;
+$slideToggleFontSize: 10px;
+$slideToggleColor: $darkGrey;
+$slideToggleGradientFrom: $buttonDefaultColorFrom;
+$slideToggleGradientTo: $buttonDefaultColorTo;

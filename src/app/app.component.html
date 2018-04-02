@@ -4,3 +4,25 @@
 
 <p *ngIf="!form.valid">Counter is invalid!</p>
 <pre>{{ form.value | json }}</pre>
+
+
+
+<h1>Angular Custom Form Controls with Reactive Forms and NgModel</h1>
+
+<p>
+  <a href="https://coryrylan.com/blog/angular-custom-form-controls-with-reactive-forms-and-ngmodel">Tutorial at coryrylan.com</a>
+</p>
+
+<h3>NgModel</h3>
+<app-vert-togl-but [(ngModel)]="value" [label]="'My Switch'"></app-vert-togl-but><br />
+<strong>Value:</strong> {{value}}
+
+<br /><br />
+<hr />
+<br />
+
+<h3>Reactive Forms</h3>
+<form [formGroup]="form" (ngSubmit)="submit()">
+  <app-vert-togl-but formControlName="mySwitch" [label]="'My Switch'"></app-vert-togl-but>
+  <button>Submit</button>
+</form>

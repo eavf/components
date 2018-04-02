@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "aerumfont";
+  src:url("fonts/aerumfont.eot");
+  src:url("fonts/aerumfont.eot?#iefix") format("embedded-opentype"),
+    url("fonts/aerumfont.woff") format("woff"),
+    url("fonts/aerumfont.ttf") format("truetype"),
+    url("fonts/aerumfont.svg#aerumfont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "aerumfont" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="aecon-"]:before,
+[class*=" aecon-"]:before {
+  font-family: "aerumfont" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.aecon-up-open:before {
+  content: "\61";
+}
+.aecon-down-open:before {
+  content: "\62";
+}
+.aecon-contract:before {
+  content: "\64";
+}
+.aecon-ens:before {
+  content: "\65";
+}
+.aecon-exchange:before {
+  content: "\66";
+}
+.aecon-key:before {
+  content: "\67";
+}
+.aecon-kyc:before {
+  content: "\68";
+}
+.aecon-staking:before {
+  content: "\69";
+}
+.aecon-swap:before {
+  content: "\6a";
+}
+.aecon-transaction:before {
+  content: "\6b";
+}
+.aecon-wallet-money:before {
+  content: "\6c";
+}
+.aecon-bell:before {
+  content: "\6d";
+}
+.aecon-cog-gear:before {
+  content: "\6e";
+}
+.aecon-power-off:before {
+  content: "\6f";
+}
+.aecon-bars:before {
+  content: "\70";
+}
+.aecon-right-circled:before {
+  content: "\72";
+}
+.aecon-left-circled:before {
+  content: "\73";
+}
+.aecon-right-open:before {
+  content: "\74";
+}
+.aecon-left-open:before {
+  content: "\75";
+}
+.aecon-right-bold:before {
+  content: "\76";
+}
+.aecon-left-bold:before {
+  content: "\77";
+}
+.aecon-crowdfund:before {
+  content: "\79";
+}
+.aecon-escrow:before {
+  content: "\7a";
+}
+.aecon-aerum-leaf:before {
+  content: "\63";
+}
+.aecon-aerum:before {
+  content: "\71";
+}
+.aecon-aerum-circle:before {
+  content: "\78";
+}
+.aecon-aerum-leaf-circle:before {
+  content: "\41";
+}

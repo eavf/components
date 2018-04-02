@@ -1,0 +1,20 @@
+.row {
+    display: block;
+    margin-right: -15px;
+    margin-left: -15px;
+    @media(min-width: 768px) {
+        display: flex;
+    }
+}
+
+.col-sm-3 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+    @media(min-width: 768px) {
+        width: 25%;
+        float: left;
+    }
+}

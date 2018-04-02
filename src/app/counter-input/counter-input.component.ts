@@ -19,7 +19,7 @@ export function createCounterRangeValidator(maxValue, minValue) {
 @Component({
   selector: 'app-counter-input',
   templateUrl: './counter-input.component.html',
-  styleUrls: ['./counter-input.component.css'],
+  styleUrls: ['./counter-input.component.scss'],
   providers: [
     { 
       provide: NG_VALUE_ACCESSOR,

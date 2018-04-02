@@ -1,0 +1,6 @@
+<form [formGroup]="form">
+  <app-counter-input formControlName="counter" counterRangeMax="10" counterRangeMin="0"></app-counter-input>
+</form>
+
+<p *ngIf="!form.valid">Counter is invalid!</p>
+<pre>{{ form.value | json }}</pre>
